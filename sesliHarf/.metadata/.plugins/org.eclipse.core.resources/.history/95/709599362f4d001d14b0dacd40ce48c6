@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		System.out.println("sorgulamak istediginiz harfi giriniz");
+		char harf=input.next().charAt(0);
+		
+		switch (harf) {
+		case 'a':
+		case 'ı':
+		case 'o':
+		case 'u':
+			System.out.println("girilen harf kalin seslidir");
+			break;
+		case 'e':
+		case 'i':
+		case 'ö':
+		case 'ü':
+			System.out.println("girilen harf ince seslidir");
+			break;
+		default:
+			System.out.println("yanlıs harf girdiniz tekrar deneyiniz ");
+			break;
+		}
+	}
+
+	
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Pro Plua\Desktop\SayiBulma\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2496542123.index
+3011209426.index
